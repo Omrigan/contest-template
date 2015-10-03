@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CF1/A/A.iml" filepath="$PROJECT_DIR$/CF1/A/A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CF1/A/A.iml" filepath="$PROJECT_DIR$/CF1/A/A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CF1/B/B.iml" filepath="$PROJECT_DIR$/CF1/B/B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CF1/B/B.iml" filepath="$PROJECT_DIR$/CF1/B/B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CF1/C/C.iml" filepath="$PROJECT_DIR$/CF1/C/C.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CF1/C/C.iml" filepath="$PROJECT_DIR$/CF1/C/C.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CF1/D/D.iml" filepath="$PROJECT_DIR$/CF1/D/D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CF1/D/D.iml" filepath="$PROJECT_DIR$/CF1/D/D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CF1/E/E.iml" filepath="$PROJECT_DIR$/CF1/E/E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CF1/E/E.iml" filepath="$PROJECT_DIR$/CF1/E/E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CF1/F/F.iml" filepath="$PROJECT_DIR$/CF1/F/F.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CF1/F/F.iml" filepath="$PROJECT_DIR$/CF1/F/F.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Main/Main.iml" filepath="$PROJECT_DIR$/Main/Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyMain/MyMain.iml" filepath="$PROJECT_DIR$/MyMain/MyMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+    </modules>
+  </component>
+</project>
