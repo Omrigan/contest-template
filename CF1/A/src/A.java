@@ -2,9 +2,9 @@ import java.io.*;
 import java.util.*;
 
 
-public class ?classname? {
-    public static String filename = "?taskname?".toLowerCase();
-    public static int read = ?readtype?; //0 - .in/.out; 1 - input.txt/output.txt; 2 - stdin/stdout
+public class A {
+    public static String filename = "A".toLowerCase();
+    public static int read = 0; //0 - .in/.out; 1 - input.txt/output.txt; 2 - stdin/stdout
 
     public static void main(String[] argv) throws IOException {
         Task t;
@@ -15,7 +15,7 @@ public class ?classname? {
             inputStream = new FileInputStream(filename + ".in");
             outputStream = new FileOutputStream(filename + ".out");
         } else {
-            switch (?classname?.read) {
+            switch (A.read) {
                 case 0:
                     inputStream = new FileInputStream(filename + ".in");
                     outputStream = new FileOutputStream(filename + ".out");

@@ -2,9 +2,9 @@ import java.io.*;
 import java.util.*;
 
 
-public class ?classname? {
-    public static String filename = "?taskname?".toLowerCase();
-    public static int read = ?readtype?; //0 - .in/.out; 1 - input.txt/output.txt; 2 - stdin/stdout
+public class C {
+    public static String filename = "C".toLowerCase();
+    public static int read = 2; //0 - .in/.out; 1 - input.txt/output.txt; 2 - stdin/stdout
 
     public static void main(String[] argv) throws IOException {
         Task t;
@@ -15,7 +15,7 @@ public class ?classname? {
             inputStream = new FileInputStream(filename + ".in");
             outputStream = new FileOutputStream(filename + ".out");
         } else {
-            switch (?classname?.read) {
+            switch (C.read) {
                 case 0:
                     inputStream = new FileInputStream(filename + ".in");
                     outputStream = new FileOutputStream(filename + ".out");
@@ -65,8 +65,44 @@ class Task {
     public InputReader in;
 
 
+    int gcd(int a, int b) {
+        if (b == 0)
+            return a;
+        else
+            return gcd(b, a % b);
+    }
+
     public void run() {
-        out.write("Yes");
+        int n = in.nextInt();
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        for (int i = 0; i < n * n; i++) {
+            int N = in.nextInt();
+            if (!map.containsKey(N))
+                map.put(N, 0);
+            map.replace(N, map.get(N) + 1);
+
+
+        }
+        int[] ans = new int[n];
+        int cur = 0;
+
+        for (Integer k : map.descendingKeySet()) {
+
+            for (int i = 0; i < cur; i++) {
+                map.replace(gcd(ans[i], k), map.get(gcd(ans[i], k)) - 2);
+            }
+            int v = map.get(k);
+            v = (int) Math.sqrt(v);
+            for(v=v;v>0;v--){
+                ans[cur] = k;
+                cur++;
+            }
+        }
+        Arrays.sort(ans);
+        for(int i =0;i<n;i++) {
+            if(ans[i]==0) ans[i] = 5;
+            out.write(ans[i], " ");
+        }
     }
 
 

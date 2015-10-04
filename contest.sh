@@ -14,6 +14,7 @@ mv "template.out" "${taskname,,}.out"
 mv "Template.iml" "$taskname.iml"
 sed -i "s/?taskname?/$taskname/g" src/Template.java
 sed -i "s/?classname?/$classname/g" src/Template.java
+sed -i "s/?readtype?/$readtype/g" src/Template.java
 mv "src/Template.java" "src/$taskname.java"
 cd ../..
 sedeasy "</modules>" \
@@ -26,6 +27,19 @@ chr() {
 contestname=$1
 count=$2
 type=$3
+case "$type" in
+
+"cf")
+$readtype="2"
+;;
+
+"acmp")
+$readtype="1"
+;;
+*)
+;;
+
+esac
 
 rm -rf $contestname
 mkdir $contestname
@@ -40,5 +54,5 @@ else
   taskname=$(chr $t)
   echo "use $taskname"
 fi
-task $contestname $taskname $taskname
+task $contestname $taskname $taskname $readtype
 done
