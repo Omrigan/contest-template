@@ -3,22 +3,21 @@ import java.util.*;
 
 
 public class Main {
-    public static String filename = "Main".toLowerCase();
-    public static int read = 0; //0 - .in/.out; 1 - input.txt/output.txt; 2 - stdin/stdout
 
-    public static void main(String[] argv) throws IOException {
+    public static void main(String[] argv) throws IOException
+    {
         Task t;
         boolean home = argv.length > 0 && argv[0].equals("test");
         InputStream inputStream;
         OutputStream outputStream;
         if (home) {
-            inputStream = new FileInputStream(filename + ".in");
-            outputStream = new FileOutputStream(filename + ".out");
+            inputStream = new FileInputStream(Task.filename + ".in");
+            outputStream = new FileOutputStream(Task.filename + ".out");
         } else {
-            switch (Main.read) {
+            switch (Task.read) {
                 case 0:
-                    inputStream = new FileInputStream(filename + ".in");
-                    outputStream = new FileOutputStream(filename + ".out");
+                    inputStream = new FileInputStream(Task.filename + ".in");
+                    outputStream = new FileOutputStream(Task.filename + ".out");
                     break;
                 case 1:
                     inputStream = new FileInputStream("input.txt");
@@ -60,13 +59,17 @@ public class Main {
     }
 
 }
+
+
 class Task {
     public OutputWriter out;
     public InputReader in;
 
+    public static final String filename = "main";
+    public static final int read = 0; //0 - .in/.out; 1 - input.txt/output.txt; 2 - stdin/stdout
 
     public void run() {
-        out.write("Yes");
+
     }
 
 

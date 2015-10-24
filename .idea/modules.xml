@@ -2,27 +2,54 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CF1/A/A.iml" filepath="$PROJECT_DIR$/CF1/A/A.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/A/A.iml" filepath="$PROJECT_DIR$/CF1/A/A.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/A/A.iml" filepath="$PROJECT_DIR$/CF1/A/A.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/B/B.iml" filepath="$PROJECT_DIR$/CF1/B/B.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/B/B.iml" filepath="$PROJECT_DIR$/CF1/B/B.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/B/B.iml" filepath="$PROJECT_DIR$/CF1/B/B.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/C/C.iml" filepath="$PROJECT_DIR$/CF1/C/C.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/C/C.iml" filepath="$PROJECT_DIR$/CF1/C/C.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/C/C.iml" filepath="$PROJECT_DIR$/CF1/C/C.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/D/D.iml" filepath="$PROJECT_DIR$/CF1/D/D.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/D/D.iml" filepath="$PROJECT_DIR$/CF1/D/D.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/D/D.iml" filepath="$PROJECT_DIR$/CF1/D/D.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/E/E.iml" filepath="$PROJECT_DIR$/CF1/E/E.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/E/E.iml" filepath="$PROJECT_DIR$/CF1/E/E.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/E/E.iml" filepath="$PROJECT_DIR$/CF1/E/E.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/F/F.iml" filepath="$PROJECT_DIR$/CF1/F/F.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CF1/F/F.iml" filepath="$PROJECT_DIR$/CF1/F/F.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Kodziro/Kodziro.iml" filepath="$PROJECT_DIR$/Kodziro/Kodziro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contset$1/$1.iml" filepath="$PROJECT_DIR$/?contset$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contset$1/$1.iml" filepath="$PROJECT_DIR$/?contset$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contset$1/$1.iml" filepath="$PROJECT_DIR$/?contset$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contset$1/$1.iml" filepath="$PROJECT_DIR$/?contset$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contset$1/$1.iml" filepath="$PROJECT_DIR$/?contset$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contset$1/$1.iml" filepath="$PROJECT_DIR$/?contset$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contset$1/$1.iml" filepath="$PROJECT_DIR$/?contset$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contset$1/$1.iml" filepath="$PROJECT_DIR$/?contset$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contest$1/$1.iml" filepath="$PROJECT_DIR$/?contest$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contest$1/$1.iml" filepath="$PROJECT_DIR$/?contest$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contest$1/$1.iml" filepath="$PROJECT_DIR$/?contest$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/?contest$1/$1.iml" filepath="$PROJECT_DIR$/?contest$1/$1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A1/A1_A/A1_A.iml" filepath="$PROJECT_DIR$/A1/A1_A/A1_A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A1/A1_B/A1_B.iml" filepath="$PROJECT_DIR$/A1/A1_B/A1_B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A1/A1_C/A1_C.iml" filepath="$PROJECT_DIR$/A1/A1_C/A1_C.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A1/A1_D/A1_D.iml" filepath="$PROJECT_DIR$/A1/A1_D/A1_D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/C2007/C2007.iml" filepath="$PROJECT_DIR$/tasks/C2007/C2007.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cf4/Cf4A/Cf4A.iml" filepath="$PROJECT_DIR$/Cf4/Cf4A/Cf4A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cf4/Cf4B/Cf4B.iml" filepath="$PROJECT_DIR$/Cf4/Cf4B/Cf4B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cf4/Cf4C/Cf4C.iml" filepath="$PROJECT_DIR$/Cf4/Cf4C/Cf4C.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cf4/Cf4D/Cf4D.iml" filepath="$PROJECT_DIR$/Cf4/Cf4D/Cf4D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cf4/Cf4E/Cf4E.iml" filepath="$PROJECT_DIR$/Cf4/Cf4E/Cf4E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cf4/Cf4F/Cf4F.iml" filepath="$PROJECT_DIR$/Cf4/Cf4F/Cf4F.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kr1/Kr1A/Kr1A.iml" filepath="$PROJECT_DIR$/Kr1/Kr1A/Kr1A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kr1/Kr1B/Kr1B.iml" filepath="$PROJECT_DIR$/Kr1/Kr1B/Kr1B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kr1/Kr1C/Kr1C.iml" filepath="$PROJECT_DIR$/Kr1/Kr1C/Kr1C.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kr1/Kr1D/Kr1D.iml" filepath="$PROJECT_DIR$/Kr1/Kr1D/Kr1D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kr1/Kr1E/Kr1E.iml" filepath="$PROJECT_DIR$/Kr1/Kr1E/Kr1E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kr1/Kr1F/Kr1F.iml" filepath="$PROJECT_DIR$/Kr1/Kr1F/Kr1F.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kr1/Kr1G/Kr1G.iml" filepath="$PROJECT_DIR$/Kr1/Kr1G/Kr1G.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kr1/Kr1H/Kr1H.iml" filepath="$PROJECT_DIR$/Kr1/Kr1H/Kr1H.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Lscext/Lscext.iml" filepath="$PROJECT_DIR$/tasks/Lscext/Lscext.iml" />
       <module fileurl="file://$PROJECT_DIR$/Main/Main.iml" filepath="$PROJECT_DIR$/Main/Main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MyMain/MyMain.iml" filepath="$PROJECT_DIR$/MyMain/MyMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Mnogochlen/Mnogochlen.iml" filepath="$PROJECT_DIR$/tasks/Mnogochlen/Mnogochlen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks//Mnogochlen/Mnogochlen.iml" filepath="$PROJECT_DIR$/tasks//Mnogochlen/Mnogochlen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks//Mnogochlen/Mnogochlen.iml" filepath="$PROJECT_DIR$/tasks//Mnogochlen/Mnogochlen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShortTemplate/ShortTemplate.iml" filepath="$PROJECT_DIR$/ShortTemplate/ShortTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/Test/Test.iml" filepath="$PROJECT_DIR$/tasks/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a1/a1_A/a1_A.iml" filepath="$PROJECT_DIR$/a1/a1_A/a1_A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a1/a1_B/a1_B.iml" filepath="$PROJECT_DIR$/a1/a1_B/a1_B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a1/a1_C/a1_C.iml" filepath="$PROJECT_DIR$/a1/a1_C/a1_C.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a1/a1_D/a1_D.iml" filepath="$PROJECT_DIR$/a1/a1_D/a1_D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/acmp275/acmp275.iml" filepath="$PROJECT_DIR$/tasks/acmp275/acmp275.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/acmp96/acmp96.iml" filepath="$PROJECT_DIR$/tasks/acmp96/acmp96.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/test/test.iml" filepath="$PROJECT_DIR$/tasks/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks//test/test.iml" filepath="$PROJECT_DIR$/tasks//test/test.iml" />
     </modules>
   </component>
 </project>

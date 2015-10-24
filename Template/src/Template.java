@@ -2,23 +2,22 @@ import java.io.*;
 import java.util.*;
 
 
-public class ?classname? {
-    public static String filename = "?taskname?".toLowerCase();
-    public static int read = ?readtype?; //0 - .in/.out; 1 - input.txt/output.txt; 2 - stdin/stdout
+public class %classname%{
 
-    public static void main(String[] argv) throws IOException {
+    public static void main(String[] argv) throws IOException
+    {
         Task t;
         boolean home = argv.length > 0 && argv[0].equals("test");
         InputStream inputStream;
         OutputStream outputStream;
         if (home) {
-            inputStream = new FileInputStream(filename + ".in");
-            outputStream = new FileOutputStream(filename + ".out");
+            inputStream = new FileInputStream(Task.filename + ".in");
+            outputStream = new FileOutputStream(Task.filename + ".out");
         } else {
-            switch (?classname?.read) {
+            switch (Task.read) {
                 case 0:
-                    inputStream = new FileInputStream(filename + ".in");
-                    outputStream = new FileOutputStream(filename + ".out");
+                    inputStream = new FileInputStream(Task.filename + ".in");
+                    outputStream = new FileOutputStream(Task.filename + ".out");
                     break;
                 case 1:
                     inputStream = new FileInputStream("input.txt");
@@ -60,13 +59,17 @@ public class ?classname? {
     }
 
 }
+
+
 class Task {
     public OutputWriter out;
     public InputReader in;
 
+    public static final String filename = "%taskname%".toLowerCase();
+    public static final int read = %readtype%; //0 - .in/.out; 1 - input.txt/output.txt; 2 - stdin/stdout
 
     public void run() {
-        out.write("Yes");
+
     }
 
 
